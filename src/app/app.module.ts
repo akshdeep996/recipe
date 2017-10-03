@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RootComponent } from './root/root.component';
-import { HeaderComponent } from './root/header/header.component'
-import { ShoppingComponent } from './root/shopping/shopping.component';
-import { RecipiComponent } from './root/recipi/recipi.component';
-import { RecipiListComponent } from './root/recipi/recipi-list/recipi-list.component';
-import { RecipiDetailComponent } from './root/recipi/recipi-detail/recipi-detail.component';
-import { RecipiItemComponent } from './root/recipi/recipi-list/recipi-item/recipi-item.component';
-import { ShoppingEditComponent } from './root/shopping/shopping-edit/shopping-edit.component'
+import { HeaderComponent } from './header/header.component'
+import { ShoppingComponent } from './shopping/shopping.component';
+import { RecipiComponent } from './recipi/recipi.component';
+import { RecipiListComponent } from './recipi/recipi-list/recipi-list.component';
+import { RecipiDetailComponent } from './recipi/recipi-detail/recipi-detail.component';
+import { RecipiItemComponent } from './recipi/recipi-list/recipi-item/recipi-item.component';
+import { ShoppingEditComponent } from './shopping/shopping-edit/shopping-edit.component'
 
 @NgModule({
   declarations: [
