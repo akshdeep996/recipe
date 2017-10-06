@@ -12,10 +12,17 @@ styleUrls:['shopping.component.css']
 export class ShoppingComponent {
 
     ingredients: Ingredient[] = [
-
         new Ingredient('Apples',5),
         new Ingredient('Tomatoes',4),
-        
     ];
     
+    onNameAdded (newDetail:{NameofIng: string,AmtofIng: number}){
+
+        this.ingredients.push({
+            name: newDetail.NameofIng,
+            amount: newDetail.AmtofIng
+        })
+
+    }
+
 }
