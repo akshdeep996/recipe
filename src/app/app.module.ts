@@ -9,8 +9,8 @@ import { RecipiComponent } from './root/recipi/recipi.component';
 import { RecipiListComponent } from './root/recipi/recipi-list/recipi-list.component';
 import { RecipiDetailComponent } from './root/recipi/recipi-detail/recipi-detail.component';
 import { RecipiItemComponent } from './root/recipi/recipi-list/recipi-item/recipi-item.component';
-import { ShoppingEditComponent } from './root/shopping/shopping-edit/shopping-edit.component'
-
+import { ShoppingEditComponent } from './root/shopping/shopping-edit/shopping-edit.component';
+import { DropdownDirective } from './root/shared/dropdown.directive'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,8 +21,8 @@ import { ShoppingEditComponent } from './root/shopping/shopping-edit/shopping-ed
     RecipiListComponent,
     RecipiDetailComponent,
     RecipiItemComponent,
-    ShoppingEditComponent
-
+    ShoppingEditComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule
